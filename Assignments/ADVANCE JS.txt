@@ -1,0 +1,56 @@
+
+Q:OUTPUT OF CODE?
+ANS:syntex error
+
+Q:When should I use the Arrow function in Javascript?
+ANS:Arrow functions introduce concise body syntax, or implicit return. This allows the omission of the curly brackets and the return keyword. Implicit return is useful for creating succinct one-line operations in map , filter , and other common array methods.
+
+
+Q:Explain the Prototype with example?
+ANS:In JavaScript, every function and object has a property named prototype by default. For example, function Person () { this.name = 'John', this. age = 23 } const person = new Person(); // checking the prototype value console.
+
+
+Q:What is the difference between .forEach loop and .map loop?
+ANS: The map() method is used to transform the elements of an array, whereas the forEach() method is used to loop through the elements of an array. The map() method can be used with other array methods, such as the filter() method, whereas the forEach() method cannot be used with other array methods.
+
+
+Q:What is a constructor in javascript? Explain with examples.?
+ANS: A constructor is a special function that creates and initializes an object instance of a class. In JavaScript, a constructor gets called when an object is created using the new keyword. The purpose of a constructor is to create a new object and set values for any existing object properties.
+
+
+Q:What is the role of closure in javascript?
+ANS:A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function.
+
+
+Q:What is the output of below code?
+ANS: output is    array = ["DataFlair", 2019, 1.0, true];
+
+
+Q:What is meant by “this” in javascript?
+ANS: In JavaScript, the this keyword refers to an object.The this keyword refers to different objects depending on how it is used
+
+
+Q:How to validate a form in javascript?
+ANS: JavaScript provides a way to validate form's data on the client's computer before sending it to the web server. Form validation generally performs two functions.
+
+Basic Validation − First of all, the form must be checked to make sure all the mandatory fields are filled in. It would require just a loop through each field in the form and check for data.
+
+Data Format Validation − Secondly, the data that is entered must be checked for correct form and value. Your code must include appropriate logic to test correctness of data. 
+
+
+
+Q:What are object prototypes?
+ANS:Every object in JavaScript has a built-in property, which is called its prototype. The prototype is itself an object, so the prototype will have its own prototype, making what's called a prototype chain. The chain ends when we reach a prototype that has null for its own prototype.
+
+
+
+Q:What is the rest parameter?
+ANS:The rest parameter syntax allows a function to accept an indefinite number of arguments as an array, providing a way to represent variadic functions in JavaScript.
+
+
+Q:What is the use of promises in javascript?
+ANS:A Promise is a proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason.
+
+
+Q:What are classes in javascript?
+ANS:Classes are a template for creating objects. They encapsulate data with code to work on that data. Classes in JS are built on prototypes but also have some syntax and semantics that are unique to classes. For more examples and explanations, see the Using classes guide.
